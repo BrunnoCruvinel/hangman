@@ -1,2 +1,2 @@
-# hangman
-Hangman Game
+# HANGMAN
+A Super Hangman Game
