@@ -1,0 +1,14 @@
+@import "../../app/vars.scss";
+
+.music {
+    padding: 8px 13px;
+    text-align: center;
+    border: 2px solid $gray-1;
+    border-radius: 50%;
+    font-size: 1rem;
+    &:hover {
+        cursor: pointer;
+        background-color: $gray-4;
+        color: #fff;
+    }
+}
