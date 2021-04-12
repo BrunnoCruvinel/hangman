@@ -1,8 +1,13 @@
 # HANGMAN
 A Super Hangman Game
 
-In the project directory, you can run:
+First we need to get install the dependencies, at the project directory, type:
 
+### `yarn`
+
+<br>
+
+In the project directory, you can run:
 ### `yarn start`
 
 Runs the app in the development mode.<br />
