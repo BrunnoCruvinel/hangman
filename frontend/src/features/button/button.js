@@ -1,8 +1,2 @@
 import './button.scss';
-export function Button(props) {
-    return (
-        <div className="button">
-            { props.children }
-        </div>
-    );
-}
+export const Button = (props) => <button className={`button ${props.className}`} onClick={props.onClick}>{props.children}</button>

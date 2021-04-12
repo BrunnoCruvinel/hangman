@@ -4,5 +4,13 @@
 .Hangman {
   font-family: "RocknRoll One", sans-serif;
   color: $gray-2;
-  
+  .container {
+    margin-top: 50px;
+  }
+  .new {
+    @media (max-width: $small) {
+      margin-top: 35px;
+      text-align: center;
+    }
+  }
 }

@@ -1,0 +1,12 @@
+@import "../../app/vars.scss";
+
+.figure {
+    fill: transparent;
+    stroke: $red-1;
+    stroke-width: 7px;
+    stroke-linecap: round;
+    .rod {
+        stroke: $gray-4;
+        stroke-width: 5px;
+    }
+}

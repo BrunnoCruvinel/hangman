@@ -1,0 +1,38 @@
+@import "../../app/vars.scss";
+
+.keyboard {
+    .word {
+        margin-top: 20px;
+        .letter {
+            padding: 7px 10px;
+            border-bottom: 4px solid $green-2;
+            margin: 15px;
+            font-size: 33px;
+            width: 20px;
+            height: 50px;
+            color: $green-2;
+            text-transform: uppercase;
+        }
+    }
+    .alphabet {
+        width: 350px;
+        margin-top: 30px;
+        .letter {
+            width: 40px;
+            height: 40px;
+            box-shadow: $shadow;
+            text-align: center;
+            font-size: 23px;
+            border: 2px solid #fff;
+            cursor: pointer;
+            margin: 5px;
+            border-radius: 4px;
+            text-transform: uppercase;
+            &:hover {
+                border: 2px solid $blue-2;
+                background-color: $blue-2;
+                color: #fff;
+            }
+        }
+    }
+}

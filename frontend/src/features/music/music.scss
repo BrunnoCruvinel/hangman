@@ -1,14 +1,26 @@
 @import "../../app/vars.scss";
 
 .music {
-    padding: 8px 13px;
+    height: 30px;
+    width: 35px;
+    padding-top: 5px;
     text-align: center;
-    border: 2px solid $gray-1;
     border-radius: 50%;
     font-size: 1rem;
     &:hover {
         cursor: pointer;
-        background-color: $gray-4;
-        color: #fff;
+        background-color: #fff;
+        color: #666;
+    }
+    .fa-music {
+        font-size: 20px;
+    }
+    &.off {
+        .fa-ban {
+            position: absolute;
+            margin-left: -29px;
+            margin-top: -8px;
+            font-size: 40px;
+        }
     }
 }
